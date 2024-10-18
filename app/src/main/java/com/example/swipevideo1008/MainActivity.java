@@ -43,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
         videoCelebration.videoURL = "https://firebasestorage.googleapis.com/v0/b/fir-connection-3b12a.appspot.com/o/Beach%20video.mp4?alt=media&token=542c7a65-8b20-4aff-9575-7331c9dd5e61";
         //insert title for video
         videoCelebration.videoTitle = "Hawaii seaside view   ID:19490583";
+        //generate unique video ID
+        String videoId = UUID.randomUUID().toString();
         //insert video description
         videoCelebration.videoDescription = "Hawaiian shore during the spring season";
         videoItemsList.add(videoCelebration);
@@ -55,6 +57,8 @@ public class MainActivity extends AppCompatActivity {
         videoCelebration2.videoTitle = "LA Shore    ID:40605967";
         //description for video
         videoCelebration2.videoDescription = "Walking at Los Angeles Shore";
+        //generate unique video ID
+        String VideoId = UUID.randomUUID().toString();
         //add video 2 to list of videos to display
         videoItemsList.add(videoCelebration2);
 
@@ -66,6 +70,8 @@ public class MainActivity extends AppCompatActivity {
         videoCelebration3.videoTitle = "Disney performance  ID:24085907";
         //description for video
         videoCelebration3.videoDescription = "A lovely musical performance by Disney Musicians";
+        //generate unique video ID
+        String videoID = UUID.randomUUID().toString();
         //add video 3 to list of videos to display
         videoItemsList.add(videoCelebration3);
 
